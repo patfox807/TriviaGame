@@ -1,0 +1,70 @@
+body {
+    text-align: center;
+    color:  white;
+    margin: auto;
+    background-size: auto;
+    background-image: url("../images/baseball.jpg");
+    background-size: cover;
+}
+header {
+    letter-spacing: 4px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    position: fixed;
+    top: 0px;
+    font-family: sans-serif;
+    font-size: 25px;
+    background: red;
+    border-bottom: grey solid 2px;
+    border-radius: 15px;
+    width: 100%;
+}
+#time-remaining {
+    font-weight: bold;
+    font-size: 30px;
+}
+.question {
+    margin: auto;
+    width: 90%;
+    font-size: 18px;
+    font-weight: bold;
+}
+h1 {
+    padding: 0px;
+    margin: 10px;
+}
+.button {
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    color: black;
+    background: gray;
+    font-size: 30px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 6px;
+    border-bottom: grey solid 2px;
+    border-right: grey solid 2px;
+}
+#done-button {
+    margin: 0px 0px 60px 0px;
+}
+#start-button {
+    margin: 0px 0px 40px 0px;
+}
+#restart-button {
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    background: red;
+    font-size: 30px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 6px;
+    border-bottom: grey solid 2px;
+    border-right: grey solid 2px;
+}
+form {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 90%;
+}

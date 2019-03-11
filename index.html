@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Trivia-Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- link to external css files and fonts -->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css"/>
+
+</head>
+
+<body>
+
+    <header><h1>Baseball Trivia<div id = "time-remaining">1:00</div></h1></header>
+
+    <br><br><br><br><br><br><br><br><br>
+
+    <button class="button" id="start-button">Start!</button>
+
+    <br>
+    
+    <!-- I'm repeating alot here with these forms, which means there's probably a more efficient way to do this... -->
+    <div class = "question">Who was the first Major League player to pitch a ball over 100 mph?</div>
+
+    <!-- inside each form, the value of the correct answer is set to "correct" -->
+    <form >
+        <input type="radio" name=1 class="choice" value="wrong"> Goose Gossage
+        <input type="radio" name=1 class="choice" value="wrong"> Randy Johnson
+        <input type="radio" name=1 class="choice" value="correct"> Nolan Ryan
+        <input type="radio" name=1 class="choice" value="wrong"> Roger Clemens
+    </form>
+
+    <br>
+
+    <div class = "question">Who was the first Major League player to have his number retired?</div>
+
+    <form >
+        <input type="radio" name=2 class="choice" value="wrong"> Babe Ruth
+        <input type="radio" name=2 class="choice" value="wrong"> Mel Ott
+        <input type="radio" name=2 class="choice" value="wrong"> Jim Bunning
+        <input type="radio" name=2 class="choice" value="correct"> Lou Gehrig
+    </form>
+
+    <br>
+
+    <div class = "question">Which pitcher had no right hand?</div>
+
+    <form >
+        <input type="radio" name=3 class="choice" value="correct"> Jim Abbott
+        <input type="radio" name=3 class="choice" value="wrong"> Stubby Clapp
+        <input type="radio" name=3 class="choice" value="wrong"> Guy Hecker
+        <input type="radio" name=3 class="choice" value="wrong"> Jim Colborn
+    </form>
+
+    <br>
+
+    <div class = "question">Who was the first reliever elected to the Hall of Fame?</div>
+
+    <form >
+        <input type="radio" name=4 class="choice" value="wrong"> Dennis Eckersley
+        <input type="radio" name=4 class="choice" value="wrong"> Goose Gossage
+        <input type="radio" name=4 class="choice" value="wrong"> Rollie Fingers
+        <input type="radio" name=4 class="choice" value="correct"> Hoyt Wilhelm
+    </form>
+
+    <br>
+
+    <div class = "question"> What MLB player holds the record for most consecutive games with a strikeout?</div>
+
+    <form >
+        <input type="radio" name=5 class="choice" value="wrong"> Babe Ruth
+        <input type="radio" name=5 class="choice" value="correct"> Aaron Judge
+        <input type="radio" name=5 class="choice" value="wrong"> Reggie Jackson
+        <input type="radio" name=5 class="choice" value="wrong"> Chili Davis
+    </form>
+    
+    <br>
+
+    <div class = "question">Who is the only pitcher in major league history to record both 200 wins and 150 saves?</div>
+
+    <form >
+        <input type="radio" name=6 class="choice" value="wrong"> Brad Lidge
+        <input type="radio" name=6 class="choice" value="wrong"> Dennis Eckersley
+        <input type="radio" name=6 class="choice" value="correct"> John Smoltz
+        <input type="radio" name=6 class="choice" value="wrong"> Mariano Rivera
+    </form>
+    
+    <br>
+
+    <div class = "question">What MLB rookie hit seven home runs in his first six games?</div>
+
+    <form >
+        <input type="radio" name=7 class="choice" value="correct"> Trevor Story
+        <input type="radio" name=7 class="choice" value="wrong"> Ryan Braun
+        <input type="radio" name=7 class="choice" value="wrong"> Albert Pujols
+        <input type="radio" name=7 class="choice" value="wrong"> Rhys Hoskins
+    </form>
+    
+    <br>
+
+    <!-- buttons for completing the quiz and restarting the game, linked to the javascript for functionality -->
+    <button class="button" id = "done-button">Done!</button>
+    <button id = "restart-button">Restart!</button>
+
+    <!-- link to external javaScript file -->
+    <script type="text/javascript" src = "assets/javascript/app.js"></script>
+
+    <!-- link to external javaScript file -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</body>
+
+</html>
